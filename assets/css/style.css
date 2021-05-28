@@ -10,16 +10,16 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Nunito", sans-serif;
-  color: #444444;
+  color: #373F41;
 }
 
 a {
-  color: #e03a3c;
+  color: #FF912A;
   text-decoration: none;
 }
 
 a:hover {
-  color: #e76668;
+  color: #FF912A;
   text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #e03a3c;
+  background: #FF912A;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #e65d5f;
+  background: #000000;
   color: #fff;
 }
 
@@ -73,49 +73,47 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  background: transparent;
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
 }
 
 #header.header-scrolled {
+  background: #ffffff;
   padding: 12px 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-#header .logo {
-  font-size: 30px;
-  margin: 0;
-  padding: 0;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-}
-
 #header .logo a {
-  color: #111111;
+  color: #ffffff;
 }
 
 #header .logo a span {
-  color: #e03a3c;
+  color: #FF912A;
 }
 
 #header .logo img {
   max-height: 40px;
 }
 
+.nav-link.scrollto, span, .bi-chevron-down {
+  color: #ffffff;
+}
+
+
 /*--------------------------------------------------------------
 # Get Startet Button
 --------------------------------------------------------------*/
 .get-started-btn {
   margin-left: 30px;
-  background: #e03a3c;
+  background: #10BDC5;
   color: #fff;
-  border-radius: 4px;
+  border-radius: 20px;
   padding: 8px 25px;
   white-space: nowrap;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   display: inline-block;
 }
@@ -174,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
-  color: #e03a3c;
+  color: #FF912A;
 }
 
 .navbar .dropdown ul {
@@ -241,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #111111;
+  color: #ffffff;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -288,7 +286,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #000000;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -300,7 +298,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #e03a3c;
+  color: #FF912A;
 }
 
 .navbar-mobile .getstarted {
@@ -345,7 +343,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center no-repeat;
+  background: url("../img/hero.png") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 82px;
@@ -374,19 +372,25 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
 }
 
+#hero h5 {
+  color: #fff;
+  margin: 10px 0 0 0;
+  font-size: 18px;
+}
+
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 30px;
-  border-radius: 4px;
+  border-radius: 40px;
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: #e03a3c;
-  border: 2px solid #e03a3c;
+  background: #10BDC5;
+  border: 2px solid #10BDC5;
 }
 
 #hero .btn-get-started:hover {
