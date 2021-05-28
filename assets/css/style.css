@@ -447,6 +447,15 @@ section {
   position: relative;
 }
 
+.section-title h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #FF912A;
+}
+
 .section-title h2::after {
   content: '';
   position: absolute;
