@@ -582,24 +582,26 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About
+# Insegnanti
 --------------------------------------------------------------*/
-.about .container {
+.teacher .container {
+  width: 100%;
+  background: url("../img/insegnate-decoration.png") top center no-repeat;
+  background-size: cover;
   position: relative;
-  z-index: 10;
 }
 
-.about .content {
+.teacher .content {
   padding: 30px 30px 30px 0;
 }
 
-.about .content h3 {
+.teacher .content h3 {
   font-weight: 700;
   font-size: 34px;
   margin-bottom: 30px;
 }
 
-.about .content p {
+.teacher .content p {
   margin-bottom: 30px;
   color: #000000;
 }
@@ -639,12 +641,19 @@ section {
   color: #fff;
 }
 
-@media (max-width: 1200px) {
-  .about .content {
+/*-@media (max-width: 1200px) {
+  .teacher .content {
     padding-right: 0;
   }
-}
+}-*/
 
+/*--------------------------------------------------------------
+# Actors
+--------------------------------------------------------------*/
+.actor {
+  content: "";
+  background: #89C7CA;
+}
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
