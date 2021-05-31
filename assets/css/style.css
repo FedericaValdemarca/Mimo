@@ -29,7 +29,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------------------------------------------------
 # Back to top button
---------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
   opacity: 0;
@@ -58,6 +57,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: visible;
   opacity: 1;
 }
+--------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
@@ -94,6 +94,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled .bi-chevron-down {
   color: #000000;
+}
+
+#header.header-scrolled .mobile-nav-toggle{
+  color:#000000;
 }
 
 #header .logo a {
@@ -463,6 +467,13 @@ section {
   color: #FF912A;
 }
 
+.section-title h4 {
+  font-weight: bold;
+  margin-top: 60px;
+  position: relative;
+  color: #373F41;
+}
+
 .section-title h2::after {
   content: '';
   position: absolute;
@@ -485,13 +496,13 @@ section {
 
 .section-bg:before {
   content: "";
-  background: #1b1b1b;
+  background: #FFC555;
   position: absolute;
-  bottom: 60px;
-  top: 60px;
+  bottom: 20px;
+  top: 20px;
   left: 0;
   right: 0;
-  transform: skewY(-3deg);
+  /*--transform: skewY(-3deg);--*/
 }
 
 /*--------------------------------------------------------------
@@ -590,61 +601,47 @@ section {
 
 .about .content p {
   margin-bottom: 30px;
+  color: #000000;
 }
 
-.about .content .about-btn {
-  padding: 8px 30px 9px 30px;
-  color: #fff;
-  border-radius: 50px;
+.teacher-btn-1 {
+  background: #ffffff;
+  color: #373F41;
+  border-radius: 20px;
+  padding: 8px 25px;
+  white-space: nowrap;
   transition: 0.3s;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 13px;
-  display: inline-flex;
-  align-items: center;
-  border: 2px solid #e03a3c;
-}
-
-.about .content .about-btn i {
-  font-size: 16px;
-  padding-left: 5px;
-}
-
-.about .content .about-btn:hover {
-  background: #e35052;
-  background: #e03a3c;
-}
-
-.about .icon-boxes .icon-box {
-  margin-top: 30px;
-}
-
-.about .icon-boxes .icon-box i {
-  font-size: 40px;
-  color: #e03a3c;
-  margin-bottom: 10px;
-}
-
-.about .icon-boxes .icon-box h4 {
-  font-size: 20px;
-  font-weight: 700;
-  margin: 0 0 10px 0;
-}
-
-.about .icon-boxes .icon-box p {
   font-size: 15px;
-  color: #848484;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.teacher-btn-1:hover {
+  background: #373F41;
+  color: #fff;
+}
+
+.teacher-btn-2 {
+  margin-left: 10px;
+  background: #ffffff;
+  color: #373F41;
+  border-radius: 20px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 15px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.teacher-btn-1:hover {
+  background: #373F41;
+  color: #fff;
 }
 
 @media (max-width: 1200px) {
   .about .content {
     padding-right: 0;
-  }
-}
-
-@media (max-width: 768px) {
-  .about {
-    text-align: center;
   }
 }
 
@@ -692,7 +689,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 14px;
 }
 
