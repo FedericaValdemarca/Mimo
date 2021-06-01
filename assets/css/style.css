@@ -361,7 +361,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero.png") top center no-repeat;
+  background: url("../img/home/hero.png") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 82px;
@@ -576,7 +576,7 @@ section {
 --------------------------------------------------------------*/
 .teacher{
   width: 100%;
-  background: url("../img/sfondo-insegnanti.png") top center no-repeat;
+  background: url("../img/home/sfondo-insegnanti.png") top center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -641,7 +641,7 @@ section {
 --------------------------------------------------------------*/
 .actor {
   width: 100%;
-  background: url("../img/sfondo-attori.png") top center no-repeat;
+  background: url("../img/home/sfondo-attori.png") top center no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
@@ -811,7 +811,7 @@ section {
 --------------------------------------------------------------*/
 .services{
   width: 100%;
-  background: url("../img/acquista-sfondo.png") top center no-repeat;
+  background: url("../img/home/acquista-sfondo.png") top center no-repeat;
   background-size: cover;
   position: relative;
   padding: 100px 0;
@@ -823,7 +823,7 @@ section {
 --------------------------------------------------------------*/
 .app{
   width: 100%;
-  background: url("../img/sfondo-app.png") top center no-repeat;
+  background: url("../img/home/sfondo-app.png") top center no-repeat;
   background-size: cover;
   position: relative;
   padding: 100px 0;
@@ -859,7 +859,7 @@ section {
 --------------------------------------------------------------*/
 .pricing{
   width: 100%;
-  background: url("../img/valori-sfondo.png") top center no-repeat;
+  background: url("../img/home/valori-sfondo.png") top center no-repeat;
   background-size: cover;
   position: relative;
   padding: 200px 0;
@@ -1085,7 +1085,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials{
   width: 100%;
-  background: url("../img/collaboratori-sfondo.png") top center no-repeat;
+  background: url("../img/home/collaboratori-sfondo.png") top center no-repeat;
   background-size: cover;
   position: relative;
   padding: 100px 0;
