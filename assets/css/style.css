@@ -786,6 +786,9 @@ section {
   position: relative;
   padding: 100px 0;
 }
+.pacchetto1:hover{
+  opacity: 0.8;
+}
 
 
 
