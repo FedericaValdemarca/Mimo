@@ -1,77 +1,8 @@
 /*--------------------------------------------------------------
-# GENERAL
---------------------------------------------------------------*/
-body {
-  font-family: "Nunito", sans-serif;
-  color: #373F41;
-}
-
-a {
-  color: #FF912A;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #10BDC5;
-  text-decoration: none;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Nunito", sans-serif;
-}
-
-
-
-/*--------------------------------------------------------------
-# Back to top button
-.back-to-top {
-  position: fixed;
-  opacity: 0;
-  right: 15px;
-  bottom: 15px;
-  z-index: 996;
-  background: #FF912A;
-  width: 40px;
-  height: 40px;
-  border-radius: 4px;
-  transition: all 0.4s;
-}
-
-.back-to-top i {
-  font-size: 28px;
-  color: #fff;
-  line-height: 0;
-}
-
-.back-to-top:hover {
-  background: #373F41;
-  color: #fff;
-}
-
-.back-to-top.active {
-  visibility: visible;
-  opacity: 1;
-}
---------------------------------------------------------------*/
-
-
-
-/*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
-  [data-aos-delay] {
-    transition-delay: 0 !important;
-  }
-}
-
-
-
-/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: transparent;
+  background: #ffffff;
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
@@ -83,50 +14,8 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-#header.header-scrolled .nav-link.scrollto{
-  color: #373F41;;
-}
-
-#header.header-scrolled span {
-  color: #373F41;;
-}
-
-#header.header-scrolled .bi-chevron-down {
-  color: #373F41;;
-}
-
 #header .logo img {
   max-height: 40px;
-}
-
-
-
-/*--------------------------------------------------------------
-# First button
---------------------------------------------------------------*/
-.get-started-btn {
-  margin-left: 30px;
-  background: #10BDC5;
-  color: #fff;
-  border-radius: 20px;
-  padding: 8px 25px;
-  white-space: nowrap;
-  transition: 0.3s;
-  font-size: 15px;
-  font-weight: 600;
-  display: inline-block;
-}
-
-.get-started-btn:hover {
-  background: #373F41;
-  color: #fff;
-}
-
-@media (max-width: 992px) {
-  .get-started-btn {
-    margin: 0 15px 0 0;
-    padding: 6px 18px;
-  }
 }
 
 
@@ -161,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Nunito", sans-serif;
   font-size: 15px;
   font-weight: bolder;
-  color: #ffffff;
+  color: #373F41;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -241,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #ffffff;
+  color: #373F41;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -288,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #000000;
+  background-color: #ffffff;
   overflow-y: auto;
   transition: 0.3s;
 }
