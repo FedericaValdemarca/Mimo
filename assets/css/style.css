@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-#header.header-scrolled .nav-link.scrollto{
+/*--#header.header-scrolled .nav-link.scrollto{
   color: #373F41;;
 }
 
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled .bi-chevron-down {
   color: #373F41;;
-}
+}--*/
 
 #header .logo img {
   max-height: 50px;
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 .get-started-btn {
   margin-left: 30px;
   background: #10BDC5;
-  color: #fff;
+  color: #ffffff;
   border-radius: 20px;
   padding: 8px 25px;
   white-space: nowrap;
@@ -119,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .get-started-btn:hover {
   background: #373F41;
-  color: #fff;
+  color: #ffffff;
 }
 
 @media (max-width: 992px) {
@@ -153,27 +153,31 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-#navbar a {
+.navbar a {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-family: "Nunito", sans-serif;
   font-size: 15px;
-  font-weight: bolder;
+  font-weight: 600;
   color: #ffffff;
   white-space: nowrap;
   transition: 0.3s;
 }
 
-.navbar a i {
-  font-size: 12px;
+.navbar a i, .navbar a:focus i {
+  font-size: 14px;
   line-height: 0;
   margin-left: 5px;
 }
 
-.navbar a:hover, .navbar .active, .navbar li:hover > a {
-  color: #FF912A;
+#navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+  color: #FF912A;;
+}
+
+.navbar .dropdown{
+  color: #ffffff;
 }
 
 .navbar .dropdown ul {
@@ -315,7 +319,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  background: #373F41;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
