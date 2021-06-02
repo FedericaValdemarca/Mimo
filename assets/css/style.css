@@ -448,7 +448,6 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
   position: relative;
 }
 
@@ -896,6 +895,10 @@ section {
   margin-bottom: 30px;
 }
 
+.portfolio h2{
+  margin-top: 30px;
+}
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 20px auto;
@@ -1010,6 +1013,7 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
 }
+
 
 /*--------------------------------------------------------------
 # Portfolio Details
