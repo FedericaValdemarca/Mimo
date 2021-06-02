@@ -7,7 +7,7 @@
 
 
 /*--------------------------------------------------------------
-# General
+# GENERAL
 --------------------------------------------------------------*/
 body {
   font-family: "Nunito", sans-serif;
@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #FF912A;
+  color: #10BDC5;
   text-decoration: none;
 }
 
@@ -71,6 +71,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -88,35 +89,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled .nav-link.scrollto{
-  color: #000000;
+  color: #373F41;;
 }
 
 #header.header-scrolled span {
-  color: #000000;
+  color: #373F41;;
 }
 
 #header.header-scrolled .bi-chevron-down {
-  color: #000000;
-}
-
-#header.header-scrolled .mobile-nav-toggle{
-  color:#000000;
-}
-
-#header .logo a {
-  color: #ffffff;
-}
-
-#header .logo a span {
-  color: #FF912A;
+  color: #373F41;;
 }
 
 #header .logo img {
   max-height: 40px;
-}
-
-.nav-link.scrollto, span, .bi-chevron-down {
-  color: #ffffff;
 }
 
 
@@ -148,6 +133,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -170,15 +156,15 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-.navbar a {
+#navbar a {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-family: "Nunito", sans-serif;
   font-size: 15px;
-  font-weight: 600;
-  color: #111111;
+  font-weight: bolder;
+  color: #ffffff;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -203,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: #373F41;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -253,6 +239,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
 /**
 * Mobile Navigation 
 */
@@ -266,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle.bi-x {
-  color: #fff;
+  color: #ffffff;
 }
 
 @media (max-width: 991px) {
@@ -312,7 +299,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #373F41;
+  color: #ffffff;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
@@ -495,6 +482,7 @@ section {
   /*--transform: skewY(-3deg);
 }--*/
 
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -676,7 +664,7 @@ section {
   display: inline-block;
 }
 
-.teacher-btn-1:hover {
+.teacher-btn-2:hover {
   background: #373F41;
   color: #fff;
 }
