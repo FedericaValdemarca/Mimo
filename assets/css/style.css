@@ -441,7 +441,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  /*--padding: 60px 0;--*/
   overflow: hidden;
   position: relative;
 }
@@ -471,6 +471,7 @@ section {
 .section-title h4 {
   font-weight: bold;
   margin-top: 60px;
+  margin-bottom: 60px;
   position: relative;
   color: #373F41;
 }
@@ -964,7 +965,7 @@ section {
 }
 
 .portfolio h2{
-  margin-top: 30px;
+  margin-top: 80px;
 }
 
 .portfolio #portfolio-flters {
@@ -1155,7 +1156,7 @@ section {
 .testimonials .testimonial-item {
   box-sizing: content-box;
   padding: 30px;
-  margin: 30px 15px;
+  margin: 15px 5px;
   min-height: 200px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   position: relative;
@@ -1163,24 +1164,9 @@ section {
   border-radius: 15px;
 }
 
-.testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 10px;
-  border: 6px solid #fff;
-  float: left;
-  margin: 0 10px 0 0;
-}
-
-.testimonials .testimonial-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 25px 0 5px 0;
-  color: #111;
-}
-
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #999;
+  color: #FF912A;
   margin: 0;
 }
 
@@ -1203,8 +1189,10 @@ section {
 }
 
 .testimonials .testimonial-item p {
+  font-size: 14px;
   font-style: italic;
-  margin: 30px auto 15px auto;
+  margin: 15px auto 10px auto;
+  color: #737B7D;
 }
 
 .testimonials .swiper-pagination {
@@ -1215,13 +1203,12 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #E3E3E3;
   opacity: 1;
-  border: 1px solid #e03a3c;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #e03a3c;
+  background-color: #FF912A;
 }
 
 
