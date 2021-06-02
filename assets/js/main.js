@@ -1,11 +1,7 @@
-/**
-* Template Name: Presento - v3.2.0
-* Template URL: https://bootstrapmade.com/presento-bootstrap-corporate-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
+
+
 
   /**
    * Easy selector helper function
@@ -18,6 +14,8 @@
       return document.querySelector(el)
     }
   }
+
+
 
   /**
    * Easy event listener function
@@ -33,12 +31,16 @@
     }
   }
 
+
+
   /**
    * Easy on scroll event listener 
    */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
   }
+
+
 
   /**
    * Scrolls to an element with header offset
@@ -58,6 +60,8 @@
     })
   }
 
+
+
   /**
    * Toggle .header-scrolled class to #header when page is scrolled
    */
@@ -73,6 +77,8 @@
     window.addEventListener('load', headerScrolled)
     onscroll(document, headerScrolled)
   }
+
+
 
   /**
    * Back to top button
@@ -90,6 +96,8 @@
     onscroll(document, toggleBacktotop)
   }
 
+
+
   /**
    * Mobile nav toggle
    */
@@ -98,6 +106,8 @@
     this.classList.toggle('bi-list')
     this.classList.toggle('bi-x')
   })
+
+
 
   /**
    * Mobile nav dropdowns activate
@@ -108,6 +118,8 @@
       this.nextElementSibling.classList.toggle('dropdown-active')
     }
   }, true)
+
+
 
   /**
    * Scrool with ofset on links with a class name .scrollto
@@ -127,6 +139,8 @@
     }
   }, true)
 
+
+
   /**
    * Scroll with ofset on page load with hash links in the url
    */
@@ -137,6 +151,9 @@
       }
     }
   });
+
+
+
   /**
    * Clients Slider
    */
@@ -173,6 +190,8 @@
     }
   });
 
+
+
   /**
    * Porfolio isotope and filter
    */
@@ -204,12 +223,16 @@
 
   });
 
+
+
   /**
    * Initiate portfolio lightbox 
    */
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });
+
+
 
   /**
    * Portfolio details slider
@@ -227,6 +250,8 @@
       clickable: true
     }
   });
+
+
 
   /**
    * Collaboratori slider
@@ -258,6 +283,7 @@
   });
 
 
+
   /**
    * Testimonials slider
    */
@@ -286,6 +312,7 @@
       }
     }
   });
+
 
 
   /**
