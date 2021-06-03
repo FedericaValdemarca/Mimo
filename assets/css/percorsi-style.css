@@ -275,11 +275,15 @@ li{
 # Pacchetti
 --------------------------------------------------------------*/
 .portfolio{
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .portfolio p {
   text-align: right;
+}
+
+.portfolio-container{
+  margin-top: 20px;
 }
 
 .portfolio-item{
@@ -288,6 +292,10 @@ li{
   padding: 0;
   margin-left: 10px;
   margin-right: 5px;
+}
+
+.pacchetto-info{
+  padding: 30px;
 }
 
 .pacchetto-info p {
@@ -299,20 +307,18 @@ li{
   color: #FF912A;
 }
 
-.pacchetto-info{
-  padding: 30px;
-}
-
 .pacchetti-img{
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
+  width: 100%;
 }
+
 
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 20px auto;
   list-style: none;
-  text-align: center;
+  text-align: right;
 }
 
 .portfolio #portfolio-flters li {
