@@ -169,5 +169,20 @@
   background: none;
   background-size: cover;
   position: relative;
-  margin: 0;
+  padding-bottom: 0;
+}
+
+
+
+/*--------------------------------------------------------------
+# App
+--------------------------------------------------------------*/
+.app{
+  padding: 0px 0px;
+  background: none;
+  padding-bottom: 100px;
+}
+.app h2{
+  font-weight: bolder;
+  color: #FF912A;
 }
