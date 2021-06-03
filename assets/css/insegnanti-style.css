@@ -190,3 +190,39 @@
   font-weight: bolder;
   color: #FF912A;
 }
+
+
+
+/*--------------------------------------------------------------
+# Schermate
+--------------------------------------------------------------*/
+.schermate{
+  width: 100%;
+  background: url("../img/insegnanti/schermate-sfondo.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0px;
+}
+.schermate h2{
+  font-weight: bolder;
+  color: #373F41;
+  margin-top: 15%;
+}
+
+
+
+/*--------------------------------------------------------------
+# Divertiti
+--------------------------------------------------------------*/
+.divertiti{
+  width: 100%;
+  background: url("../img/insegnanti/divertiti-sfondo.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0px;
+}
+.divertiti h2{
+  font-weight: bolder;
+  color: #FF912A;
+  margin-top: 10%;
+}
