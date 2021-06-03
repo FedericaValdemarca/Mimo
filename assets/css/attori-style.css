@@ -13,7 +13,6 @@
 
 #hero:before {
   content: "";
-  background: transparent;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -26,234 +25,243 @@
 }
 
 #hero h1{
-  color: #FF912A;
+  color: #10BDC4;
 }
 
 
 
 /*--------------------------------------------------------------
-# Sezione 1
+# Collaboratori
 --------------------------------------------------------------*/
-.teacher{
+.collaboratori{
   width: 100%;
-  background: url("../img/insegnanti/funzionamento-hero.jpg") top center no-repeat;
+  background: url("../img/attori/collaboratori-hero.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
+  padding: 100px 0;
 }
 
-.teacher h2{
+.collaboratori h2{
+  text-align: center;
+  color: #737B7D;
+  font-weight: bolder;
+}
+
+.collaboratori .collaboratori-item {
+  box-sizing: content-box;
+  padding: 30px;
+  margin: 30px 15px;
+  min-height: 200px;
+  position: relative;
+  border-radius: 15px;
+  align-content: center;
+  text-align: center;
+}
+
+.collaboratori .collaboratori-item .collaboratori-img {
+  width: 120px;
+  border-radius: 100px;
+  margin: 0 0px 0 0;
+}
+
+.collaboratori .collaboratori-item h3 {
+  font-size: 25px;
   font-weight: bold;
-  color: #58595B;
-}
-
-.funziona-img{
-  border-radius: 30px;
-}
-
-.funziona-testo{
-  margin-top: 6%;
-}
-
-.teacher .content {
-  padding: 30px 30px 30px 0;
-}
-
-.teacher p {
-  margin-bottom: 30px;
+  margin: 25px 0 5px 0;
   color: #737B7D;
 }
 
-.teacher-btn-1 {
-  background: #10BDC4;
-  color: #ffffff;
-  border-radius: 20px;
-  padding: 8px 25px;
-  white-space: nowrap;
-  transition: 0.3s;
-  font-size: 15px;
-  font-weight: 600;
-  display: inline-block;
+.collaboratori .collaboratori-item p {
+  color: #737B7D;
+  margin: 30px auto 15px auto;
 }
 
-.teacher-btn-1:hover {
-  background: #373F41;
-  color: #fff;
+.collaboratori .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
 }
 
-.teacher-btn-2 {
-  margin-left: 10px;
-  background: #939598;
-  color: #ffffff;
-  border-radius: 20px;
-  padding: 8px 25px;
-  white-space: nowrap;
-  transition: 0.3s;
-  font-size: 15px;
-  font-weight: 600;
-  display: inline-block;
+.collaboratori .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #E3E3E3;
+  opacity: 1;
 }
 
-.teacher-btn-2:hover {
-  background: #373F41;
-  color: #fff;
+.collaboratori .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #939598;
 }
-
 
 
 
 /*--------------------------------------------------------------
-# Cosa si fa
+# Actors
 --------------------------------------------------------------*/
-.istruzioni-section{
-  padding: 60px 0;
-}
-
-.portfolio{
+.actor {
   width: 100%;
-  background: url("../img/insegnanti/istruzioni-hero.jpg") top center no-repeat;
+  background: url("../img/attori/form-sfondo.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
+  z-index: 1;
+  padding: 100px 0;
+}
+.actor h2{
+  color: #10BDC4;
+}
+.actor p{
+  color: #737B7D;
+}
+.actor .content {
+  padding: 30px 30px 30px 0;
+}
+.actor-btn-1 {
+  background: #ffffff;
+  color: #373F41;
+  border-radius: 20px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 15px;
+  font-weight: 600;
+  display: inline-block;
+}
+.actor-btn-1:hover {
+  background: #373F41;
+  color: #fff;
 }
 
-.portfolio p {
-  text-align: right;
+
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .info-box {
+  color: #444444;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 30px 0 32px 0;
+  border-radius: 4px;
 }
 
-.portfolio-container{
-  margin-top: 20px;
+.contact .info-box i {
+  font-size: 32px;
+  color: #e03a3c;
+  border-radius: 50%;
+  padding: 8px;
+  border: 2px dotted #f8d4d5;
 }
 
-.portfolio-item{
-  box-shadow: 0px 0 0px rgba(17, 17, 17, 0.08);
-  border-radius: 25px;
+.contact .info-box h3 {
+  font-size: 20px;
+  color: #777777;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.contact .info-box p {
   padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
 }
 
-.pacchetto-info{
+.contact .php-email-form {
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 30px;
+  border-radius: 4px;
 }
 
-.pacchetto-info p {
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
   text-align: left;
-  color: #ffffff;
+  padding: 15px;
+  font-weight: 600;
 }
 
-.pacchetto-info h4 {
-  font-weight: bolder;
-  color: #ffffff;
-  font-size: 25px;
-  text-decoration: none;
+.contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
-.pacchetti-img{
-  border-radius: 25px;
-  width: 100%;
-}
-
-.istruzioni-btn-1 {
-  background: #ffffff;
-  color: #FF912A;
-  border-radius: 20px;
-  padding: 8px 25px;
-  white-space: nowrap;
-  transition: 0.3s;
-  font-size: 15px;
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
   font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+  content: "";
   display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
 }
 
-
-
-/*--------------------------------------------------------------
-# Step
---------------------------------------------------------------*/
-.services{
-  width: 100%;
-  background: none;
-  background-size: cover;
-  position: relative;
-  padding-bottom: 0;
+.contact .php-email-form .form-group {
+  margin-bottom: 25px;
 }
 
-
-
-/*--------------------------------------------------------------
-# App
---------------------------------------------------------------*/
-.app{
-  padding: 0px 0px;
-  background: none;
-  padding-bottom: 100px;
-}
-.app h2{
-  font-weight: bolder;
-  color: #FF912A;
+.contact .php-email-form input, .contact .php-email-form textarea {
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 4px;
 }
 
-
-
-/*--------------------------------------------------------------
-# Schermate
---------------------------------------------------------------*/
-.schermate{
-  width: 100%;
-  background: url("../img/insegnanti/schermate-sfondo.jpg") top center no-repeat;
-  background-size: cover;
-  position: relative;
-  padding: 60px 0px;
-}
-.schermate h2{
-  font-weight: bolder;
-  color: #373F41;
-  margin-top: 15%;
+.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+  border-color: #111111;
 }
 
-
-
-/*--------------------------------------------------------------
-# Divertiti
---------------------------------------------------------------*/
-.divertiti{
-  width: 100%;
-  background: url("../img/insegnanti/divertiti-sfondo.jpg") top center no-repeat;
-  background-size: cover;
-  position: relative;
-  padding: 60px 0px;
-}
-.divertiti h2{
-  font-weight: bolder;
-  color: #FF912A;
-  margin-top: 10%;
+.contact .php-email-form input {
+  padding: 10px 15px;
 }
 
-
-
-/*--------------------------------------------------------------
-# Community section
---------------------------------------------------------------*/
-.community-section{
-  width: 100%;
-  background: url("../img/insegnanti/community-sfondo.jpg") top center no-repeat;
-  background-size: cover;
-  position: relative;
-  margin-top: 0;
-}
-.community-section h2{
-  font-weight: bolder;
-  color: #373F41;
+.contact .php-email-form textarea {
+  padding: 12px 15px;
 }
 
-.portfolio-item{
-  padding-right: 12px;
-  padding-left: 12px;
+.contact .php-email-form button[type="submit"] {
+  background: #e03a3c;
+  border: 0;
+  padding: 10px 32px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
 }
 
-.testimonials-section{
-  width: 100%;
-  background: url("../img/insegnanti/community-sfondo.jpg") top center no-repeat;
-  background-size: cover;
-  position: relative;
-  margin-top: 0;
-  padding: 0px 0px 90px;
+.contact .php-email-form button[type="submit"]:hover {
+  background: #e35052;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
