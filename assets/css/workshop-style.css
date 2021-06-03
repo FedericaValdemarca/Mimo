@@ -1,0 +1,99 @@
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/workshop/workshop-herojpg.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 82px;
+}
+
+#hero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero p{
+  color: #ffffff;
+}
+
+
+
+/*--------------------------------------------------------------
+# Pacchetti
+--------------------------------------------------------------*/
+.portfolio{
+  margin-top: 30px;
+}
+
+.portfolio p {
+  text-align: right;
+}
+
+.portfolio-container{
+  margin-top: 20px;
+}
+
+.portfolio-item{
+  box-shadow: 0px 0 15px rgba(17, 17, 17, 0.08);
+  border-radius: 25px;
+  padding: 0;
+}
+
+.pacchetto-info{
+  padding: 30px;
+}
+
+.pacchetto-info p {
+  text-align: left;
+}
+
+.pacchetto-info h4 {
+  font-weight: bolder;
+  color: #FF5963;
+  font-size: 20px;
+}
+
+.pacchetti-img{
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+
+.portfolio #portfolio-flters {
+  padding: 0;
+  margin: 0 auto 20px auto;
+  list-style: none;
+  text-align: right;
+}
+
+.portfolio #portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 15px 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: none;
+  color: #373F41;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 3px;
+}
+
+.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+  color: #fff;
+  background: #FF912A;
+}
+
+.portfolio #portfolio-flters li:last-child {
+  margin-right: 0;
+}
