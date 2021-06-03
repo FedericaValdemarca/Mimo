@@ -104,6 +104,10 @@
 /*--------------------------------------------------------------
 # Cosa si fa
 --------------------------------------------------------------*/
+.istruzioni-section{
+  padding: 60px 0;
+}
+
 .portfolio{
   width: 100%;
   background: url("../img/insegnanti/istruzioni-hero.jpg") top center no-repeat;

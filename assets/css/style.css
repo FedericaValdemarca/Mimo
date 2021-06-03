@@ -928,15 +928,11 @@ section {
   background: url("../img/home/.png") top center no-repeat;
   background-size: cover;
   position: relative;
-  padding: 100px 0;
+  padding: 0px 0;
 }
 
 .portfolio .portfolio-item {
   margin-bottom: 30px;
-}
-
-.portfolio h2{
-  margin-top: 80px;
 }
 
 .portfolio #portfolio-flters {
@@ -944,6 +940,10 @@ section {
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
+}
+
+.portfolio h2{
+  margin-top: 80px;
 }
 
 .portfolio #portfolio-flters li {
