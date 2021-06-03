@@ -34,3 +34,66 @@
 /*--------------------------------------------------------------
 # Sezione 1
 --------------------------------------------------------------*/
+.teacher{
+  width: 100%;
+  background: url("../img/insegnanti/funzionamento-hero.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.teacher h2{
+  font-weight: bold;
+  color: #58595B;
+}
+
+.funziona-img{
+  border-radius: 30px;
+}
+
+.funziona-testo{
+  margin-top: 6%;
+}
+
+.teacher .content {
+  padding: 30px 30px 30px 0;
+}
+
+.teacher p {
+  margin-bottom: 30px;
+  color: #737B7D;
+}
+
+.teacher-btn-1 {
+  background: #10BDC4;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 15px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.teacher-btn-1:hover {
+  background: #373F41;
+  color: #fff;
+}
+
+.teacher-btn-2 {
+  margin-left: 10px;
+  background: #939598;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 15px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.teacher-btn-2:hover {
+  background: #373F41;
+  color: #fff;
+}
