@@ -273,7 +273,6 @@ li{
 /*--------------------------------------------------------------
 # Pacchetti
 --------------------------------------------------------------*/
-
 .portfolio{
   margin-top: 30px;
 }
@@ -303,6 +302,7 @@ li{
 .pacchetto-info h4 {
   font-weight: bolder;
   color: #FF912A;
+  font-size: 20px;
 }
 
 .pacchetti-img{
