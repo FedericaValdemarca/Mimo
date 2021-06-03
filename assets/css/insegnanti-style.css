@@ -97,3 +97,63 @@
   background: #373F41;
   color: #fff;
 }
+
+
+
+
+/*--------------------------------------------------------------
+# Cosa si fa
+--------------------------------------------------------------*/
+.portfolio{
+  width: 100%;
+  background: url("../img/insegnanti/istruzioni-hero.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.portfolio p {
+  text-align: right;
+}
+
+.portfolio-container{
+  margin-top: 20px;
+}
+
+.portfolio-item{
+  box-shadow: 0px 0 0px rgba(17, 17, 17, 0.08);
+  border-radius: 25px;
+  padding: 0;
+}
+
+.pacchetto-info{
+  padding: 30px;
+}
+
+.pacchetto-info p {
+  text-align: left;
+  color: #ffffff;
+}
+
+.pacchetto-info h4 {
+  font-weight: bolder;
+  color: #ffffff;
+  font-size: 25px;
+  text-decoration: none;
+  margin-top: 25px;
+}
+
+.pacchetti-img{
+  border-radius: 25px;
+}
+
+.istruzioni-btn-1 {
+  background: #ffffff;
+  color: #FF912A;
+  border-radius: 20px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 15px;
+  font-weight: 600;
+  display: inline-block;
+}
