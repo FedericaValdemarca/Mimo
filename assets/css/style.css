@@ -11,6 +11,11 @@ body {
   margin-right: auto;
 }
 
+.row{
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+}
+
 a {
   color: #10BDC5;
   text-decoration: none;
@@ -516,6 +521,20 @@ section {
   position: relative;
 }
 
+.elenco-scuole{
+  list-style: none;
+}
+
+.scuole{
+  padding: 20px;
+  border-radius: 15px;
+  border: 3px solid #FF912A;
+}
+
+.conti{
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+}
 
 
 /*--------------------------------------------------------------
