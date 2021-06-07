@@ -11,11 +11,6 @@ body {
   margin-right: auto;
 }
 
-.row{
-  --bs-gutter-x: 0;
-  --bs-gutter-y: 0;
-}
-
 a {
   color: #10BDC5;
   text-decoration: none;
@@ -401,6 +396,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   background: #10BDC5;
   border: 2px solid #10BDC5;
+  box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.06);
 }
 
 #hero .btn-get-started:hover {
@@ -459,7 +455,6 @@ h1, h2, h3, h4, h5, h6 {
 .section-title h4 {
   font-weight: bolder;
   margin-top: 60px;
-  margin-bottom: 20px;
   position: relative;
   color: #373F41;
 }
@@ -502,11 +497,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 16px;
 }
 
-.dropdown-toggle{
-  background-color: #10BDC4;
-  border: none;
-}
-
 .counts {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -518,6 +508,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .elenco-scuole{
   list-style: none;
+  padding-left: 0;
 }
 
 .scuole{
@@ -526,39 +517,29 @@ h1, h2, h3, h4, h5, h6 {
   border: 3px solid #FF912A;
 }
 
-.conti{
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
-}
-
-button{
-  margin-top: 30px;
-  background-color: transparent;
-  color: #373F41;
-  border-radius: 20px;
-  padding: 8px 25px;
-  white-space: nowrap;
-  transition: 0.3s;
-  font-size: 25px;
-  font-weight: 600;
-  display: inline-block;
+.dropdown-toggle{
+  margin-top: 10px;
+  background-color: #10BDC5;
   border: none;
 }
 
 
 /*--------------------------------------------------------------
-# Insegnanti
+# Insegnanti & Attori
 --------------------------------------------------------------*/
 .teacher{
-  width: 100%;
-  background: url("../img/home/sfondo-insegnanti.png") top center no-repeat;
+  background-image: url("../img/home/sfondo-insegnanti-attori.jpg");
+  height: 100%; 
+  /* Create the parallax scrolling effect */
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
 
 .teacher h2{
-  font-weight: 700;
-  color: #FF912A;
+  font-weight: bolder;
+  color: #ffffff;
+  margin-top: 30px;
 }
 
 .teacher .content {
@@ -567,7 +548,7 @@ button{
 
 .teacher p {
   margin-bottom: 30px;
-  color: #58595B;
+  color: #ffffff;
 }
 
 .teacher-btn-1 {
@@ -580,6 +561,7 @@ button{
   font-size: 15px;
   font-weight: 600;
   display: inline-block;
+  box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.06);
 }
 
 .teacher-btn-1:hover {
@@ -588,9 +570,8 @@ button{
 }
 
 .teacher-btn-2 {
-  margin-left: 10px;
-  background: #FFB46C;
-  color: #ffffff;
+  background: #ffffff;
+  color: #FF912A;
   border-radius: 20px;
   padding: 8px 25px;
   white-space: nowrap;
@@ -598,6 +579,7 @@ button{
   font-size: 15px;
   font-weight: 600;
   display: inline-block;
+  box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.06);
 }
 
 .teacher-btn-2:hover {
@@ -605,42 +587,8 @@ button{
   color: #fff;
 }
 
-
-
-/*--------------------------------------------------------------
-# Actors
---------------------------------------------------------------*/
-.actor {
-  width: 100%;
-  background: url("../img/home/sfondo-attori.png") top center no-repeat;
-  background-size: cover;
-  position: relative;
-  z-index: 1;
-  padding: 100px 0;
-}
-.actor h2{
-  color: #ffffff;
-}
-.actor p{
-  color: #ffffff;
-}
-.actor .content {
-  padding: 30px 30px 30px 0;
-}
-.actor-btn-1 {
-  background: #ffffff;
-  color: #373F41;
-  border-radius: 20px;
-  padding: 8px 25px;
-  white-space: nowrap;
-  transition: 0.3s;
-  font-size: 15px;
-  font-weight: 600;
-  display: inline-block;
-}
-.actor-btn-1:hover {
-  background: #373F41;
-  color: #fff;
+.attori{
+  margin-top: 100px;
 }
 
 

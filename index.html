@@ -133,14 +133,30 @@
 
         </div>
 
+        <!-- Dropdown -->
         <div class="row">
           <div class="col-md-6 offset-md-3 section-title">
-            <button onclick="getLocation()">Scopri le scuole vicino a te!</button>
+            <h4>Scopri le scuole vicino a te!</h4>
+            <div class="dropdown text-center">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Elenco scuole
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item">Scuola Elementare De Amicis, Romano di Lombardia, BG</a></li>
+                <li><a class="dropdown-item">Scuola Primaria "Milanesi", PV</a></li>
+                <li><a class="dropdown-item">Istituto Comprensivo Viale Lombardia, MI</a></li>
+                <li><a class="dropdown-item">Scuola Elementare Damiano Chiesa, MI</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-          <p id="demo"></p>
+        <!-- Geolocation -->
+        <!--<button onclick="getLocation()"></button>-->
+        <p id="demo"></p>
           
-          <script>
-          var x = document.getElementById("demo");
+        <script>
+        var x = document.getElementById("demo");
           
           function getLocation() {
             if (navigator.geolocation) {
@@ -154,89 +170,66 @@
             x.innerHTML = "Latitude: " + position.coords.latitude + 
             "<br>Longitude: " + position.coords.longitude;
           }
+        </script>
 
-          </script>
-          </div>
-  
-          <div class="col-md-6 offset-md-3 scuole section-title">
-            <ul class="elenco-scuole">
-              <li><p>Scuola Elementare De Amicis, Romano di Lombardia, BG</p></li>
-              <li><p>Scuola Primaria "Milanesi", PV</p></li>
-              <li><p>Istituto Comprensivo Viale Lombardia, MI</p></li>
-              <li><p>Scuola Elementare Damiano Chiesa, MI</p></li>
-              <li><p>Scuola Montessori Milano, MI</p></li>
-              <li><p>Scuola Primaria Raiberti, MB</p></li>
-              <li><p>Scuola Primaria Volta, VA</p></li>
-              <li><p>Scuola Primaria Plesso Pascoli, BG</p></li>
-              <li><p>Scuola Primaria Paritaria, LO</p></li>
-              <li><p>Istituto Comprensivo Statale "Guastalla-Gonzaga", RE</p></li>
-            </ul>
-          </div>
         </div>
-
-      </div>
     </section><!-- End Counts Section -->
 
 
-    <!-- ======= Insegnanti Section ======= -->
+    <!-- ======= Insegnanti/Attori Section ======= -->
+    <!-- ======= Insegnanti ======= -->
     <section id="teacher" class="teacher section-bg">
       <div class="container" data-aos="fade-up">
 
-        <div class="tab-pane" id="tab-2">
+        <div class="parallax" id="parallax">
           <div class="row">
             <!-- ======= Immagine ======= -->
             <div class="col-lg-6 order-1 order-lg-1" data-aos="fade-up" data-aos-delay="200">
               <img src="assets/img/home/insegnante.png" alt="immagine sezione insegnante" class="img-fluid">
             </div>
             <!-- ======= Testo ======= -->
-            <div class="col-lg-6 order-2 order-lg-2 mt-5" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-6 order-2 order-lg-2 my-auto" data-aos="fade-up" data-aos-delay="100">
               <h2><strong>Sei un insegnante?</strong></h2>
               <br>
               <p>
-                Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. 
-                Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. 
-                Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum.
+                Se cerchi un modo per introdurre al mondo teatro i tuoi alunni della scuola primaria, 
+                Mimo è il servizio che fa per te. Con oltre 50 attori coinvolti e più di 20 percorsi 
+                disponibili, Mimo fornisce attività di alto livello educativo per avvicinare i più 
+                piccoli alla recitazione e al miglioramento di capacità trasversali.
               </p>
-              <br>
-              <a href="percorsi.html" class="teacher-btn-1">Acquista un percorso</a>
-              <a href="#testimonials" class="teacher-btn-2">Cosa dicono di noi</a>
+
+              <div class="d-flex flex-row bd-highlight mb-3">
+                <div class="p-2 bd-highlight"><a href="percorsi.html" class="teacher-btn-1">Acquista</a></div>
+                <div class="p-2 bd-highlight"> <a href="#testimonials" class="teacher-btn-2">Cosa dicono di noi</a></div>
+              </div>
+
             </div>
           </div>
-          
-        </div>
 
-      </div>
-    </section><!-- End Insegnanti Section -->
-
-
-    <!-- ======= Attori Section ======= -->
-    <section id="actor" class="actor section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="tab-pane" id="tab-2">
-          <div class="row">
+          <!-- ======= Attori ======= -->
+          <div id="actor" class="row">
             <!-- ======= Testo ======= -->
-            <div class="col-lg-6 order-2 order-lg-1 mt-5" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-6 order-2 order-lg-1 my-auto" data-aos="fade-up" data-aos-delay="100">
               <h2><strong>Sei un attore?</strong></h2>
               <br>
               <p>
-                Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. 
-                Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. 
-                Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum.
+                Se credi fortemente nel potere educativo del teatro e nell’importanza di introdurre anche 
+                i più piccoli al mondo del teatro, Mimo è l’opportunità per concretizzare le tue idee! 
+                Per partecipare invia la tua candidatura, indicando quali attività vorresti proporre. 
+                Il nostro team ti fornirà un riscontro nel più breve tempo possibile.
               </p>
-              <br>
-              <a href="attori.html" class="actor-btn-1">Entra a far parte del team!</a>
+              <a href="attori.html" class="teacher-btn-1">Entra a far parte del team!</a>
             </div>
             <!-- ======= Immagine ======= -->
             <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
-              <img src="assets/img/home/attore.png" alt="immagine sezione attore" class="img-fluid">
+              <img src="assets/img/home/attore.png" alt="immagine sezione attore" class="img-fluid attori">
             </div>
           </div>
           
         </div>
 
       </div>
-    </section><!-- End Attori Section -->
+    </section><!-- End Insegnanti/Attori Section -->
 
 
     <!-- ======= Acquista Section ======= -->
