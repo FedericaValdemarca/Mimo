@@ -121,11 +121,46 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0 10px 30px;
   font-family: "Nunito", sans-serif;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: bolder;
   color: #ffffff;
   white-space: nowrap;
   transition: 0.3s;
 }
+
+.navbar a::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 0%;
+  background: #ffffff;
+  height: 3px;
+  transition: all 0.5s linear;
+  margin: 7px 0;
+}
+
+.navbar a::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: 0%;
+  background: #ffffff;
+  height: 3px;
+  transition: all 0.5s linear;
+  margin: 7px 0;
+}
+
+.navbar a:hover::before{
+  width: 100%;
+  background: #FF912A;
+}
+
+.navbar a:hover::after{
+  width: 100%;
+  background: #FF912A;
+}
+
 
 .navbar a i, .navbar a:focus i {
   font-size: 14px;
