@@ -127,37 +127,38 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
-.navbar a::before{
+/**
+* Line effect
+*/
+.navbar .nav-link::before{
   content: '';
   position: absolute;
-  left: 0;
-  top: 100%;
+  top: 60%;
   width: 0%;
-  background: #ffffff;
+  background: #FF912A;
   height: 3px;
-  transition: all 0.5s linear;
-  margin: 7px 0;
+  transition: all 0.2s linear;
+  margin: 10px 0;
 }
 
-.navbar a::after{
+.navbar .nav-link::after{
   content: '';
   position: absolute;
-  right: 0;
-  top: 100%;
+  top: 60%;
   width: 0%;
-  background: #ffffff;
+  background: #FF912A;
   height: 3px;
-  transition: all 0.5s linear;
-  margin: 7px 0;
+  transition: all 0.2s linear;
+  margin: 10px 0;
 }
 
-.navbar a:hover::before{
-  width: 100%;
+.navbar .nav-link:hover::before{
+  width: 50%;
   background: #FF912A;
 }
 
-.navbar a:hover::after{
-  width: 100%;
+.navbar .nav-link:hover::after{
+  width: 50%;
   background: #FF912A;
 }
 
