@@ -536,6 +536,20 @@ section {
   --bs-gutter-y: 0;
 }
 
+button{
+  margin-top: 30px;
+  background-color: transparent;
+  color: #373F41;
+  border-radius: 20px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 25px;
+  font-weight: 600;
+  display: inline-block;
+  border: none;
+}
+
 
 /*--------------------------------------------------------------
 # Insegnanti
