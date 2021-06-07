@@ -24,6 +24,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Nunito", sans-serif;
+  font-weight: bolder;
 }
 
 
@@ -392,7 +393,6 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  /*--padding: 60px 0;--*/
   overflow: hidden;
   position: relative;
 }
@@ -405,7 +405,7 @@ section {
 
 .section-title h2 {
   font-size: 32px;
-  font-weight: bold;
+  font-weight: bolder;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
@@ -413,15 +413,15 @@ section {
 
 .section-title h3 {
   font-size: 25px;
-  font-weight: bold;
+  font-weight: bolder;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #FF912A;
+  color: #58595B;
 }
 
 .section-title h4 {
-  font-weight: bold;
+  font-weight: bolder;
   margin-top: 60px;
   margin-bottom: 20px;
   position: relative;
@@ -433,66 +433,7 @@ section {
 }
 
 .section-bg {
-  padding: 100px 0;
-}
-
-
-/*--.section-bg:before {
-  content: "";
-  background: #F5F5F5;
-  position: absolute;
-  bottom: 0px;
-  top: 20px;
-  left: 0;
-  right: 0;
-  /*--transform: skewY(-3deg);
-}--*/
-
-
-
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs {
-  padding: 15px 0;
-  background: #2b2b2b;
-  min-height: 40px;
-  margin-top: 82px;
-  color: #fff;
-}
-
-.breadcrumbs h2 {
-  font-size: 28px;
-  font-weight: 500;
-}
-
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0 0 10px 0;
-  margin: 0;
-  font-size: 14px;
-}
-
-.breadcrumbs ol a {
-  color: #aaaaaa;
-}
-
-.breadcrumbs ol a:hover {
-  color: #fff;
-  transition: 0.3s;
-}
-
-.breadcrumbs ol li + li {
-  padding-left: 10px;
-}
-
-.breadcrumbs ol li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #e03a3c;
-  content: "/";
+  padding: 80px 0;
 }
 
 
@@ -500,15 +441,6 @@ section {
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
-.counts {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  width: 100%;
-  background: url("../img/home/count-sfondo.jpg") top center no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
 .counts .count-box {
   padding: 30px 30px 25px 30px;
   width: 100%;
@@ -516,31 +448,15 @@ section {
   text-align: center;
   box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.06);
   border-radius: 15px;
-}
-
-.counts .count-box i {
-  position: absolute;
-  width: 54px;
-  height: 54px;
-  top: -27px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 24px;
-  background: #fff;
-  color: #FF912A;
-  border-radius: 50px;
-  border: 2px solid #fff;
-  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  background-color: #FFEBD7;
 }
 
 .counts .count-box span {
+  margin-top: 10px;
   font-size: 36px;
   display: block;
-  font-weight: 700;
-  color: #111111;
+  font-weight: bolder;
+  color: #373F41;
 }
 
 .counts .count-box p {
@@ -553,6 +469,15 @@ section {
 .dropdown-toggle{
   background-color: #10BDC4;
   border: none;
+}
+
+.counts {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 100%;
+  background: url("../img/home/count-sfondo.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 
@@ -616,12 +541,6 @@ section {
   color: #fff;
 }
 
-/*-@media (max-width: 1200px) {
-  .teacher .content {
-    padding-right: 0;
-  }
-}-*/
-
 
 
 /*--------------------------------------------------------------
@@ -659,94 +578,6 @@ section {
   background: #373F41;
   color: #fff;
 }
-
-
-
-/*--------------------------------------------------------------
-# Tabs
-
-.tabs .nav-tabs {
-  border: 0;
-}
-
-.tabs .nav-link {
-  border: 1px solid #b9b9b9;
-  padding: 15px;
-  transition: 0.3s;
-  color: #111111;
-  border-radius: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-
-.tabs .nav-link i {
-  padding-right: 15px;
-  font-size: 48px;
-}
-
-.tabs .nav-link h4 {
-  font-size: 18px;
-  font-weight: 600;
-  margin: 0;
-}
-
-.tabs .nav-link:hover {
-  color: #e03a3c;
-}
-
-.tabs .nav-link.active {
-  background: #e03a3c;
-  color: #fff;
-  border-color: #e03a3c;
-}
-
-@media (max-width: 768px) {
-  .tabs .nav-link i {
-    padding: 0;
-    line-height: 1;
-    font-size: 36px;
-  }
-}
-
-@media (max-width: 575px) {
-  .tabs .nav-link {
-    padding: 15px;
-  }
-  .tabs .nav-link i {
-    font-size: 24px;
-  }
-}
-
-.tabs .tab-content {
-  margin-top: 30px;
-}
-
-.tabs .tab-pane h3 {
-  font-weight: 600;
-  font-size: 26px;
-}
-
-.tabs .tab-pane ul {
-  list-style: none;
-  padding: 0;
-}
-
-.tabs .tab-pane ul li {
-  padding-bottom: 10px;
-}
-
-.tabs .tab-pane ul i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #e03a3c;
-}
-
-.tabs .tab-pane p:last-child {
-  margin-bottom: 0;
-}
---------------------------------------------------------------*/
 
 
 
