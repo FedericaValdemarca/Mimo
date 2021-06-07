@@ -6,53 +6,25 @@ body {
   color: #373F41;
 }
 
+.container{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 a {
-  color: #FF912A;
+  color: #10BDC5;
   text-decoration: none;
+  font-weight: bolder;
 }
 
 a:hover {
-  color: #10BDC5;
+  color: #FF912A;
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Nunito", sans-serif;
 }
-
-
-
-/*--------------------------------------------------------------
-# Back to top button
-.back-to-top {
-  position: fixed;
-  opacity: 0;
-  right: 15px;
-  bottom: 15px;
-  z-index: 996;
-  background: #FF912A;
-  width: 40px;
-  height: 40px;
-  border-radius: 4px;
-  transition: all 0.4s;
-}
-
-.back-to-top i {
-  font-size: 28px;
-  color: #fff;
-  line-height: 0;
-}
-
-.back-to-top:hover {
-  background: #373F41;
-  color: #fff;
-}
-
-.back-to-top.active {
-  visibility: visible;
-  opacity: 1;
-}
---------------------------------------------------------------*/
 
 
 
@@ -358,14 +330,14 @@ h1, h2, h3, h4, h5, h6 {
 #hero h1 {
   margin: 0;
   font-size: 50px;
-  font-weight: 700;
+  font-weight: bolder;
   color: #fff;
 }
 
 #hero h2 {
   color: #fff;
   margin: 10px 0 0 0;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 #hero h5 {
@@ -400,7 +372,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 58px;
   }
   #hero h1 {
-    font-size: 28px;
+    font-size: 35px;
   }
   #hero h2 {
     font-size: 18px;
