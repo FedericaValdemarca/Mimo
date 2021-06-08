@@ -102,3 +102,13 @@ li{
 .box-contenuto p{
   color: #58595B;
 }
+
+.scopri{
+  color: #FF912A;
+  text-decoration: underline;
+}
+
+.scopri:hover{
+  color: #10BDC4;
+  text-decoration: underline;
+}
