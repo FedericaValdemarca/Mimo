@@ -22,11 +22,11 @@
 }
 
 #hero p{
-  color: #58595B;
+  color: #ffffff;
 }
 
 #hero h1{
-  color: #FF912A;
+  color: #ffffff;
 }
 
 
@@ -48,10 +48,6 @@
 
 .funziona-img{
   border-radius: 30px;
-}
-
-.funziona-testo{
-  margin-top: 6%;
 }
 
 .teacher .content {
@@ -161,6 +157,12 @@
   font-size: 15px;
   font-weight: 600;
   display: inline-block;
+  box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.09);
+}
+
+.istruzioni-btn-1:hover {
+  background: #373F41;
+  color: #fff;
 }
 
 
