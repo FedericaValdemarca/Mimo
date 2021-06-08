@@ -67,81 +67,38 @@ li{
 
 
 /*--------------------------------------------------------------
-# Pacchetti
+# Percorso singolo
 --------------------------------------------------------------*/
-.percorsi-section{
-  padding: 60px 0;
+.contenuto{
+  width: 100%;
+  background: url("../img/percorsosingolo/pacchetto-fiabe.png") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0;
 }
 
-.portfolio{
-  margin-top: 30px;
-}
-
-.portfolio p {
-  text-align: right;
-}
-
-.portfolio-container{
-  --bs-gutter-x: 0;
-  --bs-gutter-y: 0;
-}
-
-.portfolio-item{
-  box-shadow: 0px 0 15px rgba(17, 17, 17, 0.08);
-  border-radius: 25px;
-  padding: 0;
-}
-
-.pacchetto-info{
-  padding: 30px;
-}
-
-.pacchetto-info p {
-  text-align: left;
-}
-
-.pacchetto-info h4 {
+.contenuto h2{
+  text-align: center;
+  color: #58595B;
   font-weight: bolder;
+}
+
+.contenuti{
+  margin-top: 60px;
+}
+
+.box-contenuto{
+  background-color: #ffffff;
+  box-shadow: 0px 0 30px rgba(17, 17, 17, 0.08);
+  padding: 50px;
+  border-radius: 25px;
+}
+
+.box-contenuto h4{
   color: #FF912A;
-  font-size: 20px;
+  margin-bottom: 30px;
 }
 
-.pacchetti-img{
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-}
-
-
-.portfolio #portfolio-flters {
-  padding: 0;
-  margin: 0 auto 20px auto;
-  list-style: none;
-  text-align: right;
-}
-
-.portfolio #portfolio-flters li {
-  cursor: pointer;
-  display: inline-block;
-  padding: 8px 15px 10px 15px;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1;
-  text-transform: none;
-  color: #373F41;
-  margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
-  border-radius: 3px;
-}
-
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #fff;
-  background: #FF912A;
-}
-
-.portfolio #portfolio-flters li:last-child {
-  margin-right: 0;
-}
-
-.app-btn-1{
-  margin-bottom: 0;
+.box-contenuto p{
+  color: #58595B;
 }
