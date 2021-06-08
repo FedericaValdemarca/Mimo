@@ -80,13 +80,17 @@ li p{
   padding: 30px;
 }
 
+.pacchetto-info .app-btn-1{
+  margin-bottom: 30px;
+}
+
 .pacchetto-info p {
   text-align: left;
 }
 
 .pacchetto-info h4 {
   font-weight: bolder;
-  color: #FF5963;
+  color: #FF912A;
   font-size: 20px;
 }
 
