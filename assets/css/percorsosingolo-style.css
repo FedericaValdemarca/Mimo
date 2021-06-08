@@ -39,6 +39,10 @@ li{
   margin-bottom: 10px;
 }
 
+.footer-links li{
+  color: #ffffff;
+}
+
 .features{
   margin-right: 10px;
 }
@@ -112,4 +116,35 @@ li{
 .scopri:hover{
   color: #10BDC4;
   text-decoration: underline;
+}
+
+#propedeutiche{
+  margin-top: 80px;
+}
+
+.immagine{
+  background: url("../img/percorsosingolo/attivita-propedeutiche.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0;
+}
+
+.descrizione{
+  box-shadow: none;
+  padding: 25px;
+}
+
+.scopri-piu{
+  color: #58595B;
+  text-decoration: none;
+  padding: 0;
+}
+
+.scopri-piu:hover{
+  color: #FF912A;
+}
+
+.contenuti-2{
+  margin-top: 40px;
+  padding: 20px;
 }
