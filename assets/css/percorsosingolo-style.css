@@ -1,0 +1,147 @@
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/percorsosingolo/percorso-singolo-hero.jpg") top center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+#hero:before {
+  content: "";
+  background:transparent;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero p{
+  color: #58595B;
+}
+
+#hero h1{
+  color: #58595B;
+}
+
+ul{
+  padding-left: 0;
+}
+
+li{
+  list-style-type: none;
+  color: #58595B;
+  margin-bottom: 10px;
+}
+
+.features{
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  #hero {
+    text-align: left;
+    padding-top: 58px;
+    padding: 10px;
+  }
+  #hero h1 {
+    font-size: 45px;
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media (max-height: 500px) {
+  #hero {
+    height: 120vh;
+  }
+}
+
+
+
+/*--------------------------------------------------------------
+# Pacchetti
+--------------------------------------------------------------*/
+.percorsi-section{
+  padding: 60px 0;
+}
+
+.portfolio{
+  margin-top: 30px;
+}
+
+.portfolio p {
+  text-align: right;
+}
+
+.portfolio-container{
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+}
+
+.portfolio-item{
+  box-shadow: 0px 0 15px rgba(17, 17, 17, 0.08);
+  border-radius: 25px;
+  padding: 0;
+}
+
+.pacchetto-info{
+  padding: 30px;
+}
+
+.pacchetto-info p {
+  text-align: left;
+}
+
+.pacchetto-info h4 {
+  font-weight: bolder;
+  color: #FF912A;
+  font-size: 20px;
+}
+
+.pacchetti-img{
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+
+.portfolio #portfolio-flters {
+  padding: 0;
+  margin: 0 auto 20px auto;
+  list-style: none;
+  text-align: right;
+}
+
+.portfolio #portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 15px 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: none;
+  color: #373F41;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 3px;
+}
+
+.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+  color: #fff;
+  background: #FF912A;
+}
+
+.portfolio #portfolio-flters li:last-child {
+  margin-right: 0;
+}
+
+.app-btn-1{
+  margin-bottom: 0;
+}
