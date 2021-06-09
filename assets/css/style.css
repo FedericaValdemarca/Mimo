@@ -1039,6 +1039,10 @@ h1, h2, h3, h4, h5, h6 {
   padding: 100px 0;
 }
 
+#footer .logo img {
+  max-height: 80px;
+}
+
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
 }
