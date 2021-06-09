@@ -597,6 +597,7 @@ h1, h2, h3, h4, h5, h6 {
 .services{
   width: 100%;
   background: url("../img/home/acquista-sfondo.jpg") top center no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   position: relative;
   padding: 80px 0;
@@ -663,6 +664,7 @@ h1, h2, h3, h4, h5, h6 {
 .pricing{
   width: 100%;
   background: url("../img/home/valori-sfondo.jpg") top center no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   position: relative;
   padding: 100px 0;
