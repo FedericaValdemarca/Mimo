@@ -108,6 +108,22 @@ li{
   color: #58595B;
 }
 
+.riepilogo{
+  margin-top: 60px;
+  background-color: #10BDC4;
+  box-shadow: 0px 0 30px rgba(17, 17, 17, 0.08);
+  padding: 30px;
+  border-radius: 25px;
+}
+
+.riepilogo h4{
+  color: #ffffff;
+}
+
+.riepilogo p{
+  color: #ffffff;
+}
+
 .scopri{
   color: #FF912A;
   text-decoration: underline;
