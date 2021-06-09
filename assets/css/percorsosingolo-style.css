@@ -165,6 +165,24 @@ li{
   padding: 20px;
 }
 
+.istruzioni-btn-2 {
+  background: #ffffff;
+  color: #10BDC4;
+  border-radius: 20px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 15px;
+  font-weight: 600;
+  display: inline-block;
+  box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.09);
+}
+
+.istruzioni-btn-2:hover {
+  background: #373F41;
+  color: #fff;
+}
+
 
 
 /*--------------------------------------------------------------
