@@ -149,7 +149,42 @@ li{
 }
 
 .immagine{
-  background: url("../img/percorsosingolo/attivita-propedeutiche.jpg") top center no-repeat;
+  background: url("../img/percorsosingolo/sperimentazione-corporea.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0;
+}
+
+.immagine-1{
+  background: url("../img/percorsosingolo/attivita-dizione.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0;
+}
+
+.immagine-2{
+  background: url("../img/percorsosingolo/attivita-ascolto.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0;
+}
+
+.immagine-3{
+  background: url("../img/percorsosingolo/attivita-emozioni.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0;
+}
+
+.immagine-4{
+  background: url("../img/percorsosingolo/attivita-relazioni.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0;
+}
+
+.immagine-5{
+  background: url("../img/percorsosingolo/attivita-immedesimazione.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
   padding: 100px 0;
