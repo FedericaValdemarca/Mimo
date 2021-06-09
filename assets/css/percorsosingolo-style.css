@@ -104,6 +104,7 @@ li{
   box-shadow: 0px 0 30px rgba(17, 17, 17, 0.08);
   padding: 45px;
   border-radius: 25px;
+  margin-bottom: 15px;
 }
 
 .box-contenuto h4{
@@ -144,7 +145,7 @@ li{
 }
 
 #propedeutiche{
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 .immagine{
