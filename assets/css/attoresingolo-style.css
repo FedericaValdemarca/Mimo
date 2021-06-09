@@ -22,10 +22,54 @@
   right: 0;
 }
 
-#insegnanti p{
+#insegnanti h1, p, h5{
   color: #ffffff;
 }
 
-#insegnanti h1{
-  color: #ffffff;
+.scopri-piu{
+  color: #58595B;
+}
+
+.contatti-social{
+  font-size: 25px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Attività proposte
+--------------------------------------------------------------*/
+.proposte{
+  width: 100%;
+  background: url("../img/percorsosingolo/pacchetto-fiabe.png") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0;
+}
+
+.proposte h2{
+  text-align: center;
+  color: #58595B;
+  font-weight: bolder;
+}
+
+.attività-proposte{
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.box-contenuto{
+  background-color: #ffffff;
+  box-shadow: 0px 0 30px rgba(17, 17, 17, 0.08);
+  padding: 50px;
+  border-radius: 25px;
+}
+
+.box-contenuto h4{
+  color: #FF912A;
+  margin-bottom: 30px;
+}
+
+.box-contenuto p{
+  color: #58595B;
 }

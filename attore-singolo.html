@@ -31,6 +31,7 @@
   <link href="assets/css/insegnanti-style.css" rel="stylesheet">
   <link href="assets/css/attori-style.css" rel="stylesheet">
   <link href="assets/css/attoresingolo-style.css" rel="stylesheet">
+  <link href="assets/css/percorsosingolo-style.css" rel="stylesheet">
 
   <!-- Chatbot -->
   <script>(function(w, d) { 
@@ -77,15 +78,30 @@
       <div class="col-md-4">
         <h1>Elio Germano</h1>
           <br>
-          <h4>Biografia</h4>
+          <h5>Biografia</h5>
           <p>Elio Germano nasce a Roma nel 1980 da una famiglia originaria di Duronia, 
             in provincia di Campobasso. Nel 2007 si aggiudica il primo David di Donatello 
             come miglior attore protagonista con il film di Daniele Luchetti 
             Mio fratello è figlio unico (2007).</p>
 
+            <p>
+              <button class="btn scopri-piu" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Leggi di più <i class="bi bi-chevron-down"></i>
+              </button>
+            </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum.
+              </div>
+            </div>
+
             <div class="d-flex flex-row bd-highlight mb-3">
-              <div class="p-2 bd-highlight"><a href="percorsi.html" class="teacher-btn-1">Acquista un percorso</a></div>
-              <div class="p-2 bd-highlight"> <a href="#contact-dubbi" class="teacher-btn-1">Contattaci</a></div>
+              <div class="p-2 bd-highlight"><a class="teacher-btn-1">Scarica il CV</a></div>
+            </div>
+
+            <div class="social-links pt-3 pt-md-0">
+              <a class="facebook contatti-social"><i class="bx bxl-facebook"></i></a>
+              <a class="instagram contatti-social"><i class="bx bxl-instagram"></i></a>
             </div>
       </div>
     </div>
@@ -95,6 +111,44 @@
 
 
   <main id="main"><!-- Start #main -->
+
+    <!-- ======= Attività proposte ======= -->
+    <section id="proposte" class="proposte">
+      <div class="container" data-aos="fade-up"><!--Inizio container-->
+
+    <div>
+      <h2>Attività proposte</h2>
+    </div>
+
+      <!-- Relazioni -->
+      <div class="row attività-proposte" data-aos="fade-up">
+        <div class="col-lg-6 box-contenuto immagine">
+        </div>
+
+        <div id="sperimentazione" class="col-lg-6 box-contenuto descrizione">
+          <h4>Relazioni</h4>
+          <div class="d-flex flex-row-reverse bd-highlight mb-3">
+            <div class="p-2 bd-highlight"><img src="assets/img/workshop/durata.png" alt="icona durata attività" class="features">2 ore</div>
+          </div>
+          <p>Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum. 
+            Et has minim elitr intellegat. Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, 
+            nam no suscipit quaerendum. Et has minim elitr intellegat. </p>
+
+            <p>
+              <button class="btn scopri-piu" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Espandi descrizione <i class="bi bi-chevron-down"></i>
+              </button>
+            </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                Et has minim elitr intellegat. Mea aeterno eleifend antiopam ad, nam no suscipit quaerendum.
+              </div>
+            </div>
+        </div>
+      </div>
+
+      </div>
+    </section>
 
     <!-- ======= Attori Section ======= -->
     <section id="dubbi" class="dubbi section-bg">
