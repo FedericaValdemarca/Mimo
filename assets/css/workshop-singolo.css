@@ -14,7 +14,7 @@
 
 
 /*--------------------------------------------------------------
-# Percorso singolo
+# Workshop singolo generale
 --------------------------------------------------------------*/
 .contenuto{
   width: 100%;
@@ -30,47 +30,28 @@
   font-weight: bolder;
 }
 
-.riepilogo{
-  margin-top: 60px;
-  background-color: #10BDC4;
-  box-shadow: 0px 0 30px rgba(17, 17, 17, 0.08);
-  padding: 30px;
-  border-radius: 25px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.riepilogo h4{
-  color: #ffffff;
-}
-
-.riepilogo p{
-  color: #ffffff;
-}
-
-.istruzioni-btn-2 {
-  background: #ffffff;
-  color: #10BDC4;
-  border-radius: 20px;
-  padding: 8px 25px;
-  white-space: nowrap;
-  transition: 0.3s;
-  font-size: 15px;
-  font-weight: 600;
-  display: inline-block;
-  box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.09);
-}
-
-.istruzioni-btn-2:hover {
-  background: #373F41;
-  color: #fff;
-}
-
 
 
 /*--------------------------------------------------------------
-# Spettacolo finale
+# Box workshop singolo
 --------------------------------------------------------------*/
 .portfolio-item{
   margin-top: 35px;
+  box-shadow: none;
+}
+
+.portfolio-item h4{
+  margin-top: 20px;
+}
+
+.portfolio-item p{
+  color: #737B7D;
+}
+
+.pacchetti-img{
+  width: 100%;
+}
+
+.pacchetto-info{
+  padding: 10px;
 }
