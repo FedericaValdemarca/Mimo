@@ -182,12 +182,13 @@
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #373F41;
+  background: #ffffff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
 .navbar-mobile .dropdown ul li {
   min-width: 200px;
+  color: #ffffff;
 }
 
 .navbar-mobile .dropdown ul a {
@@ -240,12 +241,15 @@ ul{
 
 li{
   list-style-type: none;
-  color: #ffffff;
   margin-bottom: 10px;
 }
 
 .features{
   margin-right: 10px;
+}
+
+.hero-features{
+  color: #ffffff;
 }
 
 @media (max-width: 768px) {
