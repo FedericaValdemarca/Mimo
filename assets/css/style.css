@@ -375,7 +375,7 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   #hero {
     text-align: center;
     padding-top: 58px;

@@ -252,15 +252,28 @@ li{
   color: #ffffff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   #hero {
-    text-align: left;
+    text-align: center;
     padding-top: 58px;
     padding: 10px;
   }
+
+  #hero:before {
+    content: "";
+    background:rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
   #hero h1 {
     font-size: 45px;
+    margin-top: 80px;
   }
+
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
