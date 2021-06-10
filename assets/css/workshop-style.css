@@ -70,6 +70,10 @@
 --------------------------------------------------------------*/
 .workshop-section{
   padding: 60px 0;
+  width: 100%;
+  background: url("../img/workshop/lines-1.png") top center no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 #filtrotitolo{
@@ -116,6 +120,7 @@ li p{
 
 .pacchetto-info{
   padding: 30px;
+  background-color: #ffffff;
 }
 
 .pacchetto-info .app-btn-1{
