@@ -29,4 +29,3 @@ function initMenu() {
 $(document).ready(function() {
   initMenu();
 });
-
