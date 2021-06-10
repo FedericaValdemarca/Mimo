@@ -116,11 +116,12 @@ li p{
   box-shadow: 0px 0 15px rgba(17, 17, 17, 0.08);
   border-radius: 25px;
   padding: 0;
+  background-color: #ffffff;
 }
 
 .pacchetto-info{
-  padding: 30px;
   background-color: #ffffff;
+  padding: 30px;
 }
 
 .pacchetto-info .app-btn-1{
