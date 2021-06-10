@@ -125,3 +125,42 @@
 .box-attivita p{
   color: #737B7D;
 }
+
+.img-1{
+  background: url("../img/attoresingolo/relazioni.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0;
+}
+
+.img-2{
+  background: url("../img/attoresingolo/robinhood.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0;
+}
+
+.img-3{
+  background: url("../img/attoresingolo/bosco.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0;
+}
+
+.germano-btn-1 {
+  font-weight: 500;
+  font-size: 16px;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 30px;
+  border-radius: 40px;
+  transition: 0.5s;
+  color: #fff;
+  background: #10BDC5;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.germano-btn-1:hover {
+  background: #58595B;
+  color:#ffffff;
+}
