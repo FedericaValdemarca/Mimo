@@ -112,7 +112,8 @@
 }
 
 .teacher-btn-1:hover {
-  background: #373F41;
+  background: transparent;
+  border: 2px solid #ffffff;
   color: #fff;
 }
 
