@@ -292,7 +292,12 @@ li{
 # Pacchetti
 --------------------------------------------------------------*/
 .percorsi-section{
+  width: 100%;
+  background: url("../img/percorsi/lines.png") top center no-repeat;
+  background-size: cover;
+  position: relative;
   padding: 60px 0;
+  z-index: -1;
 }
 
 .portfolio{
@@ -316,6 +321,7 @@ li{
 
 .pacchetto-info{
   padding: 30px;
+  background-color: #ffffff;
 }
 
 .pacchetto-info p {
