@@ -12,6 +12,10 @@
   padding-top: 82px;
 }
 
+#insegnanti h1{
+  font-size: 50px;
+}
+
 #insegnanti:before {
   content: "";
   background: transparent;
@@ -28,6 +32,40 @@
 
 #insegnanti h1{
   color: #ffffff;
+}
+
+@media (max-width: 375px) {
+  #insegnanti {
+    text-align: center;
+    padding-top: 58px;
+    padding: 10px;
+  }
+
+  #insegnanti:before {
+    content: "";
+    background:rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  #insegnanti h1 {
+    font-size: 45px;
+    margin-top: 80px;
+  }
+
+  #insegnanti h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media (max-height: 500px) {
+  #insegnanti {
+    height: 120vh;
+  }
 }
 
 
@@ -173,11 +211,20 @@
   padding: 80px 0px;
   background: none;
 }
+
 .app h2{
   font-weight: bolder;
   color: #373F41;
 }
 
+/* Animation hover - zoom */
+.pacchetto1 {
+  transition: transform .2s;
+}
+
+.pacchetto1:hover {
+  transform: scale(1.05);
+}
 
 
 /*--------------------------------------------------------------
