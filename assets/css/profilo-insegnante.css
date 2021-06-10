@@ -66,229 +66,161 @@
 
 
 /*--------------------------------------------------------------
-# Collaboratori
+# Dashboard
 --------------------------------------------------------------*/
-.collaboratori{
+.nav-pills > li > a {
+  border-radius: 0;
+}
+
+#wrapper {
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+
+#wrapper.toggled {
+  padding-left: 250px;
+  overflow: hidden;
+}
+
+#sidebar-wrapper {
+  z-index: 1000;
+  position: absolute;
+  left: 250px;
+  width: 0;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #000;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  width: 250px;
+}
+
+#page-content-wrapper {
+  position: absolute;
+  padding: 15px;
   width: 100%;
-  background: url("../img/attori/collaboratori-hero.jpg") top center no-repeat;
-  background-size: cover;
+  overflow-x: hidden;
+}
+
+.xyz {
+  min-width: 360px;
+}
+
+#wrapper.toggled #page-content-wrapper {
   position: relative;
-  padding: 100px 0;
+  margin-right: 0px;
 }
 
-.collaboratori h2{
-  text-align: center;
-  color: #737B7D;
-  font-weight: bolder;
+.fixed-brand {
+  width: auto;
 }
+/* Sidebar Styles */
 
-.collaboratori .collaboratori-item {
-  box-sizing: content-box;
-  padding: 30px;
-  margin: 30px 15px;
-  min-height: 200px;
-  position: relative;
-  border-radius: 15px;
-  align-content: center;
-  text-align: center;
-}
-
-.collaboratori .collaboratori-item .collaboratori-img {
-  width: 120px;
-  border-radius: 100px;
-  margin: 0 0px 0 0;
-}
-
-.collaboratori .collaboratori-item h3 {
-  font-size: 25px;
-  font-weight: bold;
-  margin: 25px 0 5px 0;
-  color: #737B7D;
-}
-
-.collaboratori .collaboratori-item p {
-  color: #737B7D;
-  margin: 30px auto 15px auto;
-}
-
-.collaboratori .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.collaboratori .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #E3E3E3;
-  opacity: 1;
-}
-
-.collaboratori .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #939598;
-}
-
-
-
-/*--------------------------------------------------------------
-# Actors
---------------------------------------------------------------*/
-.actor {
-  width: 100%;
-  background: url("../img/attori/form-sfondo.jpg") top center no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  position: relative;
-  z-index: 1;
-  padding: 60px 0px;
-  padding-bottom: 90px;
-}
-.actor h2{
-  color: #10BDC4;
-}
-.actor p{
-  color: #737B7D;
-}
-.actor .content {
-  padding: 30px 30px 30px 0;
-}
-
-
-
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
-.form-group input{
-  background-color: transparent;
-  border-color: transparent;
-  border-bottom: 2px solid black;
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  margin: 0;
   padding: 0;
+  list-style: none;
+  margin-top: 2px;
 }
 
-.form-check-label{
-  color: #444444;
+.sidebar-nav li {
+  text-indent: 15px;
+  line-height: 40px;
 }
 
-.contact .info-box {
-  color: #444444;
-  text-align: center;
-  padding: 30px 0 32px 0;
-  border-radius: 4px;
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: #999999;
 }
 
-.contact .info-box i {
-  font-size: 32px;
-  color: #e03a3c;
-  padding: 8px;
-}
-
-.contact .info-box h3 {
-  font-size: 20px;
-  color: #777777;
-  font-weight: 700;
-  margin: 10px 0;
-}
-
-.contact .info-box p {
-  padding: 0;
-  line-height: 24px;
-  font-size: 16px;
-  margin-bottom: 0;
-}
-
-.contact .php-email-form {
-  border-radius: 4px;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
+.sidebar-nav li a:hover {
+  text-decoration: none;
   color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
+  background: rgba(255, 255, 255, 0.2);
+  border-left: red 2px solid;
 }
 
-.contact .php-email-form .error-message br + br {
-  margin-top: 25px;
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
 }
 
-.contact .php-email-form .sent-message {
-  display: none;
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  font-size: 18px;
+  line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
   color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
+  background: none;
 }
 
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
+.no-margin {
+  margin: 0;
 }
 
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form .form-group {
-  margin-bottom: 25px;
-}
-
-.contact .php-email-form input, .contact .php-email-form textarea {
-  box-shadow: none;
-  font-size: 16px;
-}
-
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #111111;
-}
-
-.contact .php-email-form input {
-  padding: 10px 0px;
-}
-
-.contact .php-email-form textarea {
-  padding: 12px 15px;
-}
-
-.contact .php-email-form button[type="submit"] {
-  background: #10BDC4;
-  border: 0;
-  padding: 10px 32px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 30px;
-}
-
-.contact .php-email-form button[type="submit"]:hover {
-  background: #e35052;
-}
-
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
+@media (min-width: 768px) {
+  #wrapper {
+     padding-left: 250px;
   }
-  100% {
-    transform: rotate(360deg);
+  .fixed-brand {
+     width: 250px;
   }
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
+  #wrapper.toggled {
+     padding-left: 0;
   }
-  100% {
-    transform: rotate(360deg);
+  #sidebar-wrapper {
+     width: 250px;
+  }
+  #wrapper.toggled #sidebar-wrapper {
+     width: 250px;
+  }
+  #wrapper.toggled-2 #sidebar-wrapper {
+     width: 50px;
+  }
+  #wrapper.toggled-2 #sidebar-wrapper:hover {
+     width: 250px;
+  }
+  #page-content-wrapper {
+     padding: 20px;
+     position: relative;
+     -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+     transition: all 0.5s ease;
+  }
+  #wrapper.toggled #page-content-wrapper {
+     position: relative;
+     margin-right: 0;
+     padding-left: 250px;
+  }
+  #wrapper.toggled-2 #page-content-wrapper {
+     position: relative;
+     margin-right: 0;
+     margin-left: -200px;
+     -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+     transition: all 0.5s ease;
+     width: auto;
   }
 }
