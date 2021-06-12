@@ -126,12 +126,30 @@ li{
   margin-right: 10px;
 }
 
+.disabled{
+  margin-top: 60px;
+  background-color: #6B6B6B;
+  box-shadow: 0px 0 30px rgba(17, 17, 17, 0.08);
+  padding: 30px;
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .riepilogo h4{
   color: #ffffff;
 }
 
+.disabled h4{
+  color: #B5B5B5;
+}
+
 .riepilogo p{
   color: #ffffff;
+}
+
+.disabled p{
+  color: #B5B5B5;
 }
 
 .scopri{
@@ -226,6 +244,24 @@ li{
 .istruzioni-btn-2:hover {
   background: #373F41;
   color: #fff;
+}
+
+.istruzioni-btn-disabled{
+  background: #ffffff;
+  color: #ABACAD;
+  border-radius: 20px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 15px;
+  font-weight: 600;
+  display: inline-block;
+  box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.09);
+}
+
+.istruzioni-btn-disabled:hover {
+  background: #ffffff;
+  color: #ABACAD;
 }
 
 
