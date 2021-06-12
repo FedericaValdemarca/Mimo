@@ -131,5 +131,15 @@
   border-radius: 0;
   background-color: transparent;
   box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.dropdown{
+  width: 100%;
+}
+
+.dropdown-menu{
+  background-color: transparent;
+  border-color: transparent;
   width: 100%;
 }
