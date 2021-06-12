@@ -81,13 +81,14 @@
 }
 
 .sidenav {
-  height: 500px;
+  height: auto;
   z-index: 1;
   top: 0;
   left: 0;
   background-color: #58595B;
   overflow-x: hidden;
-  padding-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   padding-left: 0;
   padding-right: 0;
   border-radius: 15px;
