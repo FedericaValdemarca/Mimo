@@ -330,16 +330,3 @@
   });
 
 })()
-
-
-
-  /**
-   * Riepilogo solo se seleziono
-   */
-   $('.form-check-input').change(function(){
-    if($(this).is(":checked")) {
-        $('.disabled').addClass('.riepilogo');
-    } else {
-        $('.disabled').removeClass('.riepilogo');
-    }
-});
