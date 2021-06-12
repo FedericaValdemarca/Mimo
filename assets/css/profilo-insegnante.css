@@ -126,3 +126,10 @@
 .p-10{
   width: 100%;
 }
+
+.dropdown-toggle{
+  border-radius: 0;
+  background-color: transparent;
+  box-shadow: none;
+  width: 100%;
+}
