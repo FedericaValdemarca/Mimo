@@ -105,6 +105,7 @@
 
 .sidenav a:hover {
   background-color: #7C7C7C;
+  border-left: 5px solid #10BDC4;
   color: #ffffff;
 }
 
@@ -116,4 +117,8 @@
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+.features{
+  opacity: 0.4;
 }
