@@ -317,6 +317,13 @@
 
 
   /**
+   * Riepilogo solo se seleziono
+   */
+  
+
+
+
+  /**
    * Animation on scroll
    */
   window.addEventListener('load', () => {
