@@ -378,7 +378,7 @@
 }
 
 .contact-dubbi .php-email-form button[type="submit"] {
-  background: #6B6B6B;
+  background: #10BDC4;
   border: 0;
   padding: 10px 32px;
   color: #fff;
@@ -387,7 +387,7 @@
 }
 
 .contact-dubbi .php-email-form button[type="submit"]:hover {
-  background: #e35052;
+  background: #0A949A;
 }
 
 @-webkit-keyframes animate-loading {
