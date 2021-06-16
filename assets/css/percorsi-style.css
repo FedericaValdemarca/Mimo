@@ -166,6 +166,18 @@
   color: #ffffff;
 }
 
+.navbar-mobile span {
+  color: #ffffff;
+}
+
+.navbar-mobile .bi-chevron-down {
+  color: #ffffff;
+}
+
+a.langue{
+  color: #373F41;;
+}
+
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #FF912A;
 }
