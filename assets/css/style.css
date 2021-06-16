@@ -330,8 +330,13 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 25px;
 }
 
-.btn-close{
-  background-color: #373F41;
+button{
+  border-color: transparent;
+  background-color: transparent;
+}
+
+a.login-button{
+  color: #373F41;
 }
 
 
